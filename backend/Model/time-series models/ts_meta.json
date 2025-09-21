@@ -1,0 +1,21 @@
+{
+  "backend": "tf",
+  "model_path": "/content/drive/MyDrive/ts_model/_gru.h5",
+  "scaler": "/content/drive/MyDrive/ts_model/ts_scaler.joblib",
+  "seq_len": 10,
+  "features": [
+    "amount_log1p",
+    "amount_ratio_to_user_avg",
+    "amount_zscore_user",
+    "hour_sin",
+    "hour_cos",
+    "time_since_prev_txn_seconds",
+    "txns_last_1hr_by_user",
+    "seq_ratio",
+    "merchant_category_freq",
+    "merchant_name_freq",
+    "city_freq",
+    "device_freq",
+    "country_freq"
+  ]
+}

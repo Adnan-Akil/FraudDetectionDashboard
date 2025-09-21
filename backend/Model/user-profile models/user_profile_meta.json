@@ -1,0 +1,31 @@
+{
+  "features": [
+    "amount",
+    "amount_log1p",
+    "amount_ratio_to_user_avg",
+    "amount_zscore_user",
+    "hour",
+    "hour_sin",
+    "hour_cos",
+    "dayofweek",
+    "is_weekend",
+    "time_since_signup_days",
+    "seq_ratio",
+    "total_txn_by_user",
+    "avg_amount_by_user",
+    "txns_last_1hr_by_user",
+    "merchant_category_freq",
+    "merchant_name_freq",
+    "city_freq",
+    "device_freq",
+    "country_freq",
+    "prev_amount_1",
+    "prev_amount_2",
+    "prev_amount_3",
+    "prev_amounts_mean_3"
+  ],
+  "model_path": "/content/drive/MyDrive/_xgb.json",
+  "model_type": "xgboost",
+  "train_rows": 23952,
+  "test_rows": 5989
+}
