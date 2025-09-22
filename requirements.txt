@@ -6,3 +6,7 @@ scikit-learn
 pandas
 numpy
 joblib
+tensorflow
+tqdm
+uvicorn
+#cd to the frontend directory and run: npm install tailwindcss @tailwindcss/vite
